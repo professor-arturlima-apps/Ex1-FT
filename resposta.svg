@@ -1,0 +1,21 @@
+<svg viewBox="0 0 500 280" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="280" rx="12" fill="#1a1c23"/>
+  
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#777" />
+    </marker>
+  </defs>
+
+  <line x1="70" y1="230" x2="440" y2="230" stroke="#777" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="70" y1="230" x2="70" y2="40" stroke="#777" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <text x="70" y="25" fill="#aaa" font-family="sans-serif" font-size="16" text-anchor="middle" font-weight="bold">h(t)</text>
+  <text x="465" y="236" fill="#aaa" font-family="sans-serif" font-size="16" font-weight="bold">t</text>
+
+  <path d="M 70 230 
+           C 85 40, 115 110, 160 150
+           S 300 228, 430 228" 
+        fill="none" stroke="#00f2ff" stroke-width="3.5" stroke-linecap="round" />
+</svg>
+
